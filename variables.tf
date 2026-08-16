@@ -23,3 +23,9 @@ variable "bucket_name_prefix" {
     type =  string
     default = "tv-terraform-assessment-bucket"
 }
+
+variable "aws_profile" {
+  description = "AWS profile to apply the infrastructure into aws console"
+  type = string
+  default = "tv-ostad-aws"
+}
