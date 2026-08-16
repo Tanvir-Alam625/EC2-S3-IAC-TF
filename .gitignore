@@ -20,3 +20,5 @@ terraform.rc
 
 # Terraform lock file (optional to commit; excluded here)
 .terraform.lock.hcl
+config.bat
+node_modules
