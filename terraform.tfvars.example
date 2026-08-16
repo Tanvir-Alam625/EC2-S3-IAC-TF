@@ -1,0 +1,5 @@
+aws_region          = "us-east-1"
+instance_type       = "t2.micro"
+project_name        = "TerraformAssignment"
+environment         = "dev"
+bucket_name_prefix  = "terraform-assignment-bucket"
