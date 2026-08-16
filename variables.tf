@@ -25,7 +25,7 @@ variable "bucket_name_prefix" {
 }
 
 variable "aws_profile" {
-  description = "AWS profile to apply the infrastructure into aws console"
+  description = "Named AWS CLI profile to use for authentication"
   type = string
-  default = "tv-ostad-aws"
+  default = "aws-profile-name"
 }

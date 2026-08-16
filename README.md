@@ -20,8 +20,8 @@ terraform-ec2-s3-lifecycle/
 ## Prerequisites
 
 - Terraform >= 1.5.0
-- AWS CLI configured with valid credentials (`aws configure`)
-- IAM permissions for EC2 and S3
+- AWS CLI with the `aws-profile-name` named profile configured (`aws configure --profile aws-profile-name`)
+- IAM permissions for EC2 and S3 on that profile
 
 ## Usage
 
